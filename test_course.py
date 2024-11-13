@@ -54,7 +54,7 @@ def test_Course_02(driver):
     assert "Đăng ký thành công" in message_text
 
 
-def test_DKKH_003(driver):
+def test_Course_03(driver):
     # Steps
     test_Login_01(driver)
     time.sleep(2)
